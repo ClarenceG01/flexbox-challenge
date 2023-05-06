@@ -26,53 +26,88 @@ body{
     align-items: center;
     border-radius: 19px;
 }
-
 .percentage{
     background-color:hsla(256, 72%, 46%, 1);
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 50%; 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+}
+.percentage h1{
+    font-weight: 900;
+    display: block;
+}
+.actual-result h1{
+    padding: 0;
+    margin: 0;
+}
+.out-of p{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    opacity: 0.7;
 }
 .report h3{
     margin: 20px 0 5px 0;
     text-align: center;
+    font-size: 23px;
+    font-weight: 900;
+    display: block;
 }
 .report p{
     margin-top: 0;
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Hanken Grotesk';
+    opacity: 0.7;
 }
 .summary-container{
     width: 200px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+    padding: 18px 18px 18px 25px;
+    /* display: flex;
+    flex-direction: column; */
     box-sizing: border-box;
     border-radius: 19px;
 }
-.summary-container h4{
-    margin: 0;
+.summary-box h4{
+    margin:0;
 }
 .summary-content{
     border: 1px solid rgb(236, 233, 233);
     border-radius: 5px;
-    padding: 5px 10px;
-    margin: 10px 0;
+    padding: 6px 0;
+    margin: 5px 0;
     width: 100%;
 }
 .summary-content p{
     display: inline;  
 }
-.summary-box button{
+.summary-content img{
+    width: 13px;
+    height: 13px;
+}
+.summary-content .colored{
+    display: inline;
+}
+.summary-box{
+    display:flex;
+    flex-direction: column;
+}
+.summary-container button{
     width: 100%;
     padding: 7px;
     color: white;
     background-color:hsl(224, 30%, 27%);
     border: none;
     border-radius: 13px;
+}
+#visual{
+    margin-bottom: 10px;
+}
+#continue-btn{
+    margin-top: 10px;
 }
 #reaction-text{
     color: hsl(0, 100%, 67%);

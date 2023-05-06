@@ -12,8 +12,10 @@
         <div class="result-container">
             <h4>Your Result</h4>
             <div class="percentage">
-                <div class="percentage-circle">
+                <div class="actual-result">
                     <h1>76</h1>
+                </div>
+                <div class="out-of">
                     <p>of 100</p>
                 </div>
             </div>
@@ -24,26 +26,39 @@
         </div>
 
         <div class="summary-container">
+            <h4>Summary</h4>
             <div class="summary-box">
-                <h4>Summary</h4>
-                    <div class="summary-content">
-                        <p class="summary-category" id="reaction-text">Reaction</p>
+                    <div class="summary-content" id="reaction">
+                        <div class="colored">
+                            <img src="images/icon-reaction.svg">
+                            <p class="summary-category" id="reaction-text">Reaction</p>
+                        </div>
                         <p class="summary-value"><b>80</b>/100</p>
                     </div>
                     <div class="summary-content" >
-                        <p class="summary-category" id="memory-text">Memory</p>
+                        <div class="colored">
+                            <img src="images/icon-memory.svg">
+                            <p class="summary-category" id="memory-text">Memory</p>
+                        </div>
                         <p class="summary-value"><b>92</b>/100</p>
                     </div>
                     <div class="summary-content">
-                        <p class="summary-category" id="verbal-text">Verbal</p>
+                        <div class="colored">
+                            <img src="images/icon-verbal.svg">
+                            <p class="summary-category" id="verbal-text">Verbal</p>
+                        </div>
                         <p class="summary-value"><b>61</b>/100</p>
                     </div>
-                    <div class="summary-content">
-                        <p class="summary-category" id="visual-text">Visual</p>
+                    <div class="summary-content" id="visual">
+                        <div class="colored">
+                            <img src="images/icon-visual.svg">
+                            <p class="summary-category" id="visual-text">Visual</p>
+                        </div>
                         <p class="summary-value"><b>72</b>/100</p>
                     </div>
-                    <button>Continue</button>
+                    
             </div>
+            <button id="continue-btn">Continue</button>
             
         </div>
         
