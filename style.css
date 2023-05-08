@@ -14,7 +14,7 @@ body{
     align-items: center;
     width: fit-content;
     border-radius: 20px;
-    border: 1px solid rgb(187, 183, 183);
+    box-shadow: 0  5px 5px hsl(224, 30%, 27%) ;
 }
 .result-container{
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
@@ -109,8 +109,12 @@ body{
     border: none;
     border-radius: 13px;
 }
+#reaction{
+    background-color: hsla(0, 100%, 67%,0.3) ;
+}
 #visual{
     margin-bottom: 10px;
+    background-color: hsla(234, 85%, 45%,0.3);
 }
 #continue-btn{
     margin-top: 10px;
