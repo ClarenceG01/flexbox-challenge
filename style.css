@@ -14,7 +14,7 @@ body{
     align-items: center;
     width: fit-content;
     border-radius: 20px;
-    box-shadow: 0  5px 5px hsl(224, 30%, 27%) ;
+    box-shadow: 0  5px 5px hsl(252, 100%, 67%);
 }
 .result-container{
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
@@ -111,6 +111,12 @@ body{
 }
 #reaction{
     background-color: hsla(0, 100%, 67%,0.3) ;
+}
+#memory{
+    background-color: hsla(39, 100%, 56%,0.3) ;
+}
+#verbal{
+    background-color: hsla(166, 100%, 37%,0.3) ;
 }
 #visual{
     margin-bottom: 10px;
